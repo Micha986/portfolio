@@ -95,7 +95,7 @@ p {
 /* --- Willkommens-Sektion --- */
 
 #welcome {
-    background-image: linear-gradient(rgba(123, 196, 127, 0.9), rgba(99, 163, 102, 0.9)), url(../img/Wald3.jpg);
+    background-image: linear-gradient(rgba(123, 196, 127, 0.9), rgba(99, 163, 102, 0.9)), url(../portfolio-site/Wald3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
@@ -192,7 +192,7 @@ p {
 /* --- Contact Heading Sektion --- */
 
 #contact-heading {
-    background-image: linear-gradient(rgba(123, 196, 127, 0.9), rgba(99, 163, 102, 0.9)), url(../img/Wald3.jpg);
+    background-image: linear-gradient(rgba(123, 196, 127, 0.9), rgba(99, 163, 102, 0.9)), url(../portfolio-site/Wald3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
@@ -252,7 +252,7 @@ p {
 /* --- Impressum Options Sektion --- */
 
 #impressum-heading {
-    background-image: linear-gradient(rgba(123, 196, 127, 0.9), rgba(99, 163, 102, 0.9)), url(../img/Wald3.jpg);
+    background-image: linear-gradient(rgba(123, 196, 127, 0.9), rgba(99, 163, 102, 0.9)), url(../portfolio-site/Wald3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
@@ -274,7 +274,7 @@ p {
 /* --- Datenschutz Options Sektion --- */
 
 #datenschutz-heading {
-    background-image: linear-gradient(rgba(123, 196, 127, 0.9), rgba(99, 163, 102, 0.9)), url(../img/Wald3.jpg);
+    background-image: linear-gradient(rgba(123, 196, 127, 0.9), rgba(99, 163, 102, 0.9)), url(../portfolio-site/Wald3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
