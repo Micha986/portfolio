@@ -1,0 +1,318 @@
+* {
+    font-family: 'Assistant', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-bottom: 20px;
+}
+
+a {
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+p {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* --- Hilfsklassen --- */
+
+.standard-container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.text-highlighted {
+    color: #f2e8cf;
+}
+
+.btn {
+    display: block;
+    font-size: 20px;
+    background-color: #386641;
+    color: #f2e8cf;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 15px 0px;
+}
+
+.btn:hover {
+    background-color: #283618;
+    color:#dda15e;
+}
+
+/* --- Navigationsleiste --- */
+
+#main-nav {
+    background-color: #386641;    
+}
+
+#main-nav h1 {
+    float: left;
+    color: #dda15e;
+    padding-top: 20px;
+}
+
+#main-nav::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#main-nav a {
+    color: #dda15e;
+}
+
+#main-nav ul {
+    float: right;
+    list-style: none;
+}
+
+#main-nav ul li {
+    float: left;
+}
+
+#main-nav ul li a {
+    display: block;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+}
+
+#main-nav ul li a.active-page {
+    background-color: #283618;
+}
+
+#main-nav ul li a:hover {
+    background-color: #283618;
+}
+
+/* --- Willkommens-Sektion --- */
+
+#welcome {
+    background-image: linear-gradient(rgba(123, 196, 127, 0.9), rgba(99, 163, 102, 0.9)), url(../img/Wald3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#welcome:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#welcome .welcome-content {
+    float: right;
+    width: 70%;
+    color: #283618;
+    padding: 130px 50px;
+}
+
+#welcome .welcome-img {
+    float: left;
+    width: 30%;
+    padding-top: 40px;
+}
+
+#welcome .welcome-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#welcome .welcome-content h2 {
+    font-size: 40 px;
+}
+
+/* --- About-Sektion --- */
+
+#about {
+    background-color: #386641;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#about .about-content {
+    float: left;
+    width: 70%;
+    color:#f2e8cf;
+    padding: 20px;
+}
+
+#about .about-img {
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+#about .about-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#about .about-content h2 {
+    font-size: 40px;
+}
+
+/* --- Skills-Sektion --- */
+
+#skills {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#skills:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#skills .skill {
+    float: left;
+    width: 14%;
+    text-align: center;
+}
+
+#skills .skill img {
+    width: 100px;
+    height: 100px;
+}
+
+/* --- Contact Heading Sektion --- */
+
+#contact-heading {
+    background-image: linear-gradient(rgba(123, 196, 127, 0.9), rgba(99, 163, 102, 0.9)), url(../img/Wald3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#contact-heading .heading-content {
+    padding: 130px 0px;
+}
+
+#contact-heading .heading-content h2 {
+    font-size: 40px;
+}
+
+#contact-heading .heading-content p {
+    font-size: 20px;
+}
+
+/* --- Contact Options Sektion --- */
+
+#contact-options {
+    margin-top: -150px;
+    padding-bottom: 100px;
+}
+
+#contact-options:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#contact-options .contact-option {
+    float: left;
+    width: 31.33%;
+    margin: 1%;
+    text-align: center;
+    padding: 35px;
+    background-color: #386641;
+    min-height: 300px;
+    border-radius: 10px;
+}
+#contact-options .contact-option h3 {
+    font-size: 25px;
+    color:#dda15e;
+    padding-top: 15px;
+}
+
+#contact-options .contact-option p {
+    color:#f2e8cf;
+    line-height: 1.7em;
+}
+
+#contact-options .material-symbols-outlined {
+    font-size: 50px;
+    color: #f2e8cf;
+}
+
+/* --- Impressum Options Sektion --- */
+
+#impressum-heading {
+    background-image: linear-gradient(rgba(123, 196, 127, 0.9), rgba(99, 163, 102, 0.9)), url(../img/Wald3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#impressum-heading .impressum-content {
+    padding: 130px 0px;
+    text-align: center;
+}
+
+#impressum-heading .impressum-content h2 {
+    font-size: 40px;
+}
+
+#impressum-heading .impressum-content p {
+    font-size: 20px;
+}
+
+/* --- Datenschutz Options Sektion --- */
+
+#datenschutz-heading {
+    background-image: linear-gradient(rgba(123, 196, 127, 0.9), rgba(99, 163, 102, 0.9)), url(../img/Wald3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#datenschutz-heading .datenschutz-content {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+#datenschutz-heading .datenschutz-content h2 {
+    font-size: 40px;
+}
+
+#datenschutz-heading .datenschutz-content h3 {
+    font-size: 35px;
+}
+
+#datenschutz-heading .datenschutz-content h4 {
+    font-size: 30px;
+}
+#datenschutz-heading .datenschutz-content h5 {
+    font-size: 25px;
+}
+
+#datenschutz-heading .datenschutz-content p {
+    font-size: 20px;
+}
+
+/* --- Footer --- */
+
+#main-footer {
+    background-color:#386641;
+    min-height: 120px;
+    padding: 52px;
+}
+
+#main-footer p, a {
+    color: #f2e8cf;
+    text-align: center;
+}
